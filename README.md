@@ -4,8 +4,11 @@ This project involves building a predictive model for a bike-sharing system, whe
 ## The dataset includes three key columns:
 
 casual: The number of casual users who have rented bikes on a given day.
+
 registered: The number of registered users who have rented bikes on the same day.
+
 cnt: The total number of bike rentals on that day, including both casual and registered users. This is the target variable that the model aims to predict.
-Objective:
+
+## Objective:
 The goal is to build a model that can predict the total number of bike rentals (represented by the cnt variable) based on various features (such as day of the week, weather, temperature, etc.). The model will use the cnt variable as the target for prediction, helping the bike-sharing service understand and forecast demand for bikes.
 
